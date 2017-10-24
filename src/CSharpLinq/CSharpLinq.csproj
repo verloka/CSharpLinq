@@ -43,6 +43,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Examples\Example1.cs" />
+    <Compile Include="Examples\Example10.cs" />
+    <Compile Include="Examples\Example11.cs" />
     <Compile Include="Examples\Example2.cs" />
     <Compile Include="Examples\Example3.cs" />
     <Compile Include="Examples\Example4.cs" />
