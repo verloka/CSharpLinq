@@ -56,6 +56,15 @@ namespace CSharpLinq
                 case 11:
                     Examples.Example11.Show();
                     break;
+                case 12:
+                    Examples.Example12.Show();
+                    break;
+                case 13:
+                    Examples.Example13.Show();
+                    break;
+                case 14:
+                    Examples.Example14.Show();
+                    break;
             }
 
             Console.Read();

@@ -22,4 +22,26 @@
             return $"Model - {Model}, Company - {Company}";
         }
     }
+
+    class Player
+    {
+        public string Name { get; set; } = string.Empty;
+        public string Team { get; set; } = string.Empty;
+
+        public override string ToString()
+        {
+            return Name;
+        }
+    }
+
+    class Team
+    {
+        public string Name { get; set; } = string.Empty;
+        public string Country { get; set; } = string.Empty;
+
+        public override string ToString()
+        {
+            return $"{Name} ({Country})";
+        }
+    }
 }

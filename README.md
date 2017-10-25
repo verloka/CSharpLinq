@@ -14,3 +14,6 @@
  - 09: **[Operations on sets](https://github.com/ogycode/CSharpLinq/blob/master/src/CSharpLinq/Examples/Example9.cs)** (Except, Intersect, Union, Concat, Distinct).
  - 10: **[Aggregate operations on sets](https://github.com/ogycode/CSharpLinq/blob/master/src/CSharpLinq/Examples/Example10.cs)** (Aggregate, Sum, Min, Average, Max).
  - 11: **[Skiping and Taking elemenets in sets](https://github.com/ogycode/CSharpLinq/blob/master/src/CSharpLinq/Examples/Example11.cs)** (Skip, Take, SkipWhile, TakeWhile).
+ - 12: **[Group list by some value](https://github.com/ogycode/CSharpLinq/blob/master/src/CSharpLinq/Examples/Example12.cs)** (from, group by, into, select).
+ - 13: **[Union the objects by value and a simple union](https://github.com/ogycode/CSharpLinq/blob/master/src/CSharpLinq/Examples/Example13.cs)** (join, Join, GroupJoin, Zip).
+ - 14: **[Methods: All, Any](https://github.com/ogycode/CSharpLinq/blob/master/src/CSharpLinq/Examples/Example14.cs)** (All, Any).
