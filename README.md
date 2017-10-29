@@ -2,7 +2,7 @@
 
 # Linq
 
-## Examples:
+## LINQ to Objects:
  - 01: **[Simple example of selecting and sorting](https://github.com/ogycode/CSharpLinq/blob/master/src/CSharpLinq/Examples/Example1.cs)** (from, where, orderby, select).
  - 02: **[Select by value](https://github.com/ogycode/CSharpLinq/blob/master/src/CSharpLinq/Examples/Example2.cs)** (from, where, select).
  - 03: **[Complex filter](https://github.com/ogycode/CSharpLinq/blob/master/src/CSharpLinq/Examples/Example3.cs)** (from, where, select).
@@ -17,3 +17,8 @@
  - 12: **[Group list by some value](https://github.com/ogycode/CSharpLinq/blob/master/src/CSharpLinq/Examples/Example12.cs)** (from, group by, into, select).
  - 13: **[Union the objects by value and a simple union](https://github.com/ogycode/CSharpLinq/blob/master/src/CSharpLinq/Examples/Example13.cs)** (join, Join, GroupJoin, Zip).
  - 14: **[Methods: All, Any](https://github.com/ogycode/CSharpLinq/blob/master/src/CSharpLinq/Examples/Example14.cs)** (All, Any).
+ - 15: **[Parallelizing work on the collection](https://github.com/ogycode/CSharpLinq/blob/master/src/CSharpLinq/Examples/Example15.cs)** (AsParallel, ForAll).
+ - 16: **[Parallelizing and sorting work on the collection](https://github.com/ogycode/CSharpLinq/blob/master/src/CSharpLinq/Examples/Example16.cs)** (AsParallel, AsOrdered).
+ - 17: **[Exception and Cancellation Token](https://github.com/ogycode/CSharpLinq/blob/master/src/CSharpLinq/Examples/Example17.cs)** (AsParallel, WithCancellation).
+
+## LINQ to XML:

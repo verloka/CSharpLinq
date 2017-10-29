@@ -1,5 +1,28 @@
-﻿namespace CSharpLinq.Examples
+﻿using System.Threading;
+
+namespace CSharpLinq.Examples
 {
+    public static class Helper
+    {
+        public static int Factorial(int x)
+        {
+            int result = 1;
+            for (int i = 1; i <= x; i++)
+                result *= i;
+            return result;
+        }
+
+        public static int FactorialWithSleep(int x, int s)
+        {
+            Thread.Sleep(s);
+
+            int result = 1;
+            for (int i = 1; i <= x; i++)
+                result *= i;
+            return result;
+        }
+    }
+
     class Customer
     {
         public int Age { get; set; } = 0;

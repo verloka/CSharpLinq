@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CSharpLinq
 {
@@ -64,6 +60,15 @@ namespace CSharpLinq
                     break;
                 case 14:
                     Examples.Example14.Show();
+                    break;
+                case 15:
+                    Examples.Example15.Show();
+                    break;
+                case 16:
+                    Examples.Example16.Show();
+                    break;
+                case 17:
+                    Examples.Example17.Show();
                     break;
             }
 
