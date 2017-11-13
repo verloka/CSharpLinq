@@ -22,3 +22,4 @@
  - 17: **[Exception and Cancellation Token](https://github.com/ogycode/CSharpLinq/blob/master/src/CSharpLinq/Examples/Example17.cs)** (AsParallel, WithCancellation).
 
 ## LINQ to XML:
+ - 18: **[First introducing in Linq to Xml](https://github.com/ogycode/CSharpLinq/blob/master/src/CSharpLinq/Examples/Example18.cs)** (XDocument, XElement, XAttribute, XDeclaration, XDocumentType, XProcessingInstruction).

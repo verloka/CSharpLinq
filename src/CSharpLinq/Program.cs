@@ -70,6 +70,9 @@ namespace CSharpLinq
                 case 17:
                     Examples.Example17.Show();
                     break;
+                case 18:
+                    Examples.Example18.Show();
+                    break;
             }
 
             Console.Read();
