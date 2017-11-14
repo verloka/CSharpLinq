@@ -8,7 +8,7 @@ namespace CSharpLinq.Examples
     public static class Example18
     {
         /// <summary>
-        /// В этом примере показано наглядно введение в Linq to Xml (создание, сохранение)
+        /// В этом примере показано наглядно введение в Linq to Xml (создание, сохранение, загрузка)
         /// </summary>
         public static void Show()
         {

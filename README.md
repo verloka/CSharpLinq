@@ -23,3 +23,4 @@
 
 ## LINQ to XML:
  - 18: **[First introducing in Linq to Xml](https://github.com/ogycode/CSharpLinq/blob/master/src/CSharpLinq/Examples/Example18.cs)** (XDocument, XElement, XAttribute, XDeclaration, XDocumentType, XProcessingInstruction, Save, Load, Parse).
+ - 19: **[Reading a Xml](https://github.com/ogycode/CSharpLinq/blob/master/src/CSharpLinq/Examples/Example19.cs)** (FirstNode, LastNode, NextNode, PreviousNode, Nodes, Ancestors, Descendants, NodesAfterSelf/NodesBeforeSelf).
