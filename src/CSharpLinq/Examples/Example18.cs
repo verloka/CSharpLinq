@@ -94,6 +94,18 @@ namespace CSharpLinq.Examples
             //Сохраняме
             docForSave.Save("file.xml", SaveOptions.None);
             Console.WriteLine("Document was saved in application's folder.");
+
+            Console.WriteLine("Document was loaded from file.xml:");
+
+            //Загрузка xml с файла
+            Console.WriteLine(XDocument.Load("file.xml"));
+
+            string xml = "<?xml version=\"1.0\" encoding=\"utf-8\"?><Employees><Employee type=\"Programmer\" language=\"Russian\"><FirstName>Alex</FirstName><LastName>Erohin</LastName></Employee></Employees>";
+
+            Console.WriteLine("Parsing from string:");
+
+            //Парсим xml из строки
+            Console.WriteLine(XDocument.Parse(xml));
         }
     }
 }
