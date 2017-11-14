@@ -76,6 +76,9 @@ namespace CSharpLinq
                 case 19:
                     Examples.Example19.Show();
                     break;
+                case 20:
+                    Examples.Example20.Show();
+                    break;
             }
 
             Console.Read();
