@@ -1,4 +1,6 @@
-﻿using System.Threading;
+﻿using System;
+using System.Threading;
+using System.Xml.Linq;
 
 namespace CSharpLinq.Examples
 {
@@ -65,6 +67,33 @@ namespace CSharpLinq.Examples
         public override string ToString()
         {
             return $"{Name} ({Country})";
+        }
+    }
+
+    abstract class Handler
+    {
+        public abstract void Display(XElement element);
+    }
+
+    class EditorHandler : Handler
+    {
+        public override void Display(XElement element)
+        {
+            Console.WriteLine("==Editor==");
+            Console.WriteLine(element.Element("FirstName").Value);
+            Console.WriteLine(element.Element("LastName").Value);
+            Console.WriteLine("==++==");
+        }
+    }
+
+    class ProgrammerHandler : Handler
+    {
+        public override void Display(XElement element)
+        {
+            Console.WriteLine("==Programmer==");
+            Console.WriteLine(element.Element("FirstName").Value);
+            Console.WriteLine(element.Element("LastName").Value);
+            Console.WriteLine("==++==");
         }
     }
 }

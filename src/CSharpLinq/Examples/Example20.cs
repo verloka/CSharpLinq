@@ -6,6 +6,9 @@ namespace CSharpLinq.Examples
 {
     public static class Example20
     {
+        /// <summary>
+        /// В этом примере рассмотрена работы с элементами: добавление, редактирование, удаление
+        /// </summary>
         public static void Show()
         {
             Console.WriteLine("Example #20:");
