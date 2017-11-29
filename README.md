@@ -26,3 +26,4 @@
  - 19: **[Reading a Xml](https://github.com/ogycode/CSharpLinq/blob/master/src/CSharpLinq/Examples/Example19.cs)** (FirstNode, LastNode, NextNode, PreviousNode, Nodes, Ancestors, Descendants, NodesAfterSelf/NodesBeforeSelf).
  - 20: **[Editing a Xml](https://github.com/ogycode/CSharpLinq/blob/master/src/CSharpLinq/Examples/Example20.cs)** (Add, Remove, SetElementValue). 
  - 21: **[Example of using annotations](https://github.com/ogycode/CSharpLinq/blob/master/src/CSharpLinq/Examples/Example21.cs)** (AddAnnotation).
+ - 22: **[Complicated query and example of methods: Descendants, Ancestors](https://github.com/ogycode/CSharpLinq/blob/master/src/CSharpLinq/Examples/Example22.cs)** (Parse, Descendants, Ancestors).
