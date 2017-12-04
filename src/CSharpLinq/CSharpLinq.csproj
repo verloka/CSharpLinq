@@ -57,6 +57,7 @@
     <Compile Include="Examples\Example20.cs" />
     <Compile Include="Examples\Example21.cs" />
     <Compile Include="Examples\Example22.cs" />
+    <Compile Include="Examples\Example23.cs" />
     <Compile Include="Examples\Example3.cs" />
     <Compile Include="Examples\Example4.cs" />
     <Compile Include="Examples\Example5.cs" />
